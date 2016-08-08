@@ -6,3 +6,4 @@ This is a starter app for the DPL JavaScript course to begin capstones
 2.  cp .env.example .env
 3.  npm install
 4.  npm start
+5.  set database name in .env
