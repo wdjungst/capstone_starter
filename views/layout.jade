@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+    title= title
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/vendor/css/materialize.min.css')
+    link(href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet")
+    script(src='/vendor/js/jquery-3.1.0.min.js')
+    script(src='/vendor/js/materialize.min.js')
+  body
+    block content
+    if (nodeEnv === 'development')
+      script(src="http://localhost:3808/webpack-dev-server.js")
+
